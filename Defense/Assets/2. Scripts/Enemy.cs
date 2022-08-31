@@ -2,9 +2,11 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+
     public float speed = 10f;
     Transform target;
     int wavepointIndex = 0;
+
 
     private void Start()
     {
@@ -22,6 +24,9 @@ public class Enemy : MonoBehaviour
             GetNextWaypoint();
         }
 
+        transform.localRotation =
+            Quaternion.Slerp(transform.localRotation,
+            Quaternion.LookRotation(dir), 5 * Time.deltaTime);
     }
 
     void GetNextWaypoint()
@@ -32,5 +37,7 @@ public class Enemy : MonoBehaviour
         }
         wavepointIndex++;
         target = WayPoints.points[wavepointIndex];
+
+
     }
 }
