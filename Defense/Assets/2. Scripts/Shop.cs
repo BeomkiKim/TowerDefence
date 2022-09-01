@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class Shop : MonoBehaviour
 {
+
     public GameObject[] gems;
     public bool isGemOpen;
 

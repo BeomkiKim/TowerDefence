@@ -5,11 +5,11 @@ public class Bullet : MonoBehaviour
 {
     Transform target;
 
+    public float bulletPower;
     public float speed = 70f;
     public float explosionRadius = 0f;
 
     public GameObject impactEffect;
-
 
 
     public void Seek(Transform _target)
@@ -35,6 +35,9 @@ public class Bullet : MonoBehaviour
 
         transform.Translate(dir.normalized * distanceTisFrame, Space.World);
         transform.LookAt(target);
+        transform.localRotation =
+        Quaternion.Slerp(transform.localRotation,
+        Quaternion.LookRotation(dir), 5 * Time.deltaTime);
     }
 
 	void HitTarget ()
@@ -65,7 +68,8 @@ public class Bullet : MonoBehaviour
     }
     void Damage(Transform enemy)
     {
-        Destroy(enemy.gameObject);
+        enemy.SendMessage("Damage", bulletPower);
+        //Destroy(enemy.gameObject);
     }
 
     private void OnDrawGizmosSelected()

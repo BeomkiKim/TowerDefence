@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class Node : MonoBehaviour
 {
@@ -9,21 +10,31 @@ public class Node : MonoBehaviour
 
     Renderer rend;
     Color startColor;
+    public PlayerState player;
+    public int turretCost = 100;
 
     private void Start()
     {
         rend = GetComponent<Renderer>();
+        player = FindObjectOfType<PlayerState>();
+
         startColor = rend.material.color;
     }
     private void OnMouseDown()
     {
+        
         if(turret != null)
         {
             Debug.Log("Can't build there!");
             return;
         }
-        GameObject turretToBuild = BuildManager.instance.GetTurretToBuild();
-        turret = (GameObject)Instantiate(turretToBuild, transform.position+positionOffet, transform.rotation);
+
+        if (player.currentMoney >= turretCost && player.currentMoney > 0 && !EventSystem.current.IsPointerOverGameObject())
+        {
+            player.SendMessage("Set");
+            GameObject turretToBuild = BuildManager.instance.GetTurretToBuild();
+            turret = (GameObject)Instantiate(turretToBuild, transform.position + positionOffet, transform.rotation);
+        }
     }
     private void OnMouseEnter()
     {
