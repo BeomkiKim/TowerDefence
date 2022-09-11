@@ -8,8 +8,11 @@ public class CameraController : MonoBehaviour
     public float panBroderThickness = 10f;
 
     public float scrollSpeed = 5f;
+    float clampZ = 50f;
+    float clampY = 10f;
+
     public float minY = 10f;
-    public float maxY = 80f;
+    public float maxY = 50f;
 
     void Update()
     {
@@ -19,19 +22,19 @@ public class CameraController : MonoBehaviour
         if (!doMovement)
             return;
 
-        if(Input.GetKey("w") || Input.mousePosition.y >= Screen.height-panBroderThickness)
+        if(Input.GetKey("w") && transform.position.z <= clampZ || Input.mousePosition.y >= Screen.height-panBroderThickness && transform.position.z <= clampZ)
         { 
             transform.Translate(Vector3.forward*panSpeed*Time.deltaTime, Space.World);
         }
-        if(Input.GetKey("s") || Input.mousePosition.y <= panBroderThickness)
+        if(Input.GetKey("s") && transform.position.z >= -clampZ + 30f || Input.mousePosition.y <= panBroderThickness && transform.position.z >= -clampZ+30f)
         { 
             transform.Translate(Vector3.back*panSpeed*Time.deltaTime, Space.World);
         }
-        if(Input.GetKey("d") || Input.mousePosition.x >= Screen.width-panBroderThickness)
+        if(Input.GetKey("d") && transform.position.x < clampY+50f || Input.mousePosition.x >= Screen.width-panBroderThickness && transform.position.x < clampY+50f)
         { 
             transform.Translate(Vector3.right*panSpeed*Time.deltaTime, Space.World);
         }
-        if(Input.GetKey("a") || Input.mousePosition.x <= panBroderThickness)
+        if(Input.GetKey("a") && transform.position.x > clampY || Input.mousePosition.x <= panBroderThickness && transform.position.x > clampY)
         { 
             transform.Translate(Vector3.left*panSpeed*Time.deltaTime, Space.World);
         }

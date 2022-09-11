@@ -75,7 +75,7 @@ public class Turret : MonoBehaviour
         Bullet bullet = bulletGo.GetComponent<Bullet>();
 
         if (bullet != null)
-            bullet.Seek(target);
+            bullet.Seek(target);//seek함수 : 찾기
     }
 
     private void OnDrawGizmosSelected()
