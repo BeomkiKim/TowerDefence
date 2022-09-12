@@ -551,6 +551,7 @@ GameObject:
   - component: {fileID: 95000014196578838}
   - component: {fileID: -500968577576788904}
   - component: {fileID: 8779925383834405474}
+  - component: {fileID: -7268100860807785816}
   m_Layer: 0
   m_Name: SlimBoss
   m_TagString: Enemy
@@ -608,8 +609,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hp: 0
-  maxHp: 300
+  maxHp: 1000
   gold: 100
+  startSpeed: 12
   speed: 15
   percentage: 460000000a0000000a0000000a000000
   total: 0
@@ -617,7 +619,7 @@ MonoBehaviour:
   - {fileID: 8025125118609062886, guid: 9aca06c74b4388249ac195842b9f313a, type: 3}
   - {fileID: 1238260032330606, guid: 63f20d6cb1156bc44a0d3da6e4e23486, type: 3}
   - {fileID: 1440041658193322, guid: 2a01cd6b4d3a34a469e5d5836c4eef1b, type: 3}
-  - {fileID: 1374755803494742, guid: 339e91898d045d0408f709f4a23a62d9, type: 3}
+  - {fileID: 1412290364867976, guid: 0617407bb41ab4b5ab29067dcffb6b9e, type: 3}
 --- !u!65 &8779925383834405474
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -631,6 +633,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.025190694, y: 0.023488563, z: 0.024317222}
   m_Center: {x: 0.0008457045, y: 0.007906006, z: -0.000056916473}
+--- !u!114 &-7268100860807785816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000012979649092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2057dc8d2d13884f8059f8f78cf8722, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1000013817168944
 GameObject:
   m_ObjectHideFlags: 0

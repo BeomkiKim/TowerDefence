@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 public class PlayerState : MonoBehaviour
 {
-    int startMoney = 300;
-    public int currentMoney;
+    float startMoney = 300f;
+    public float currentMoney;
     public int currentLife;
     int maxlife = 3;
 

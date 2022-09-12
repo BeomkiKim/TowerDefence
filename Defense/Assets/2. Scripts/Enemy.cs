@@ -5,9 +5,10 @@ public class Enemy : MonoBehaviour
     public float hp;
     public float maxHp;
     public int gold;
-    public float speed = 10f;
-    Transform target;
-    int wavepointIndex = 0;
+    public float startSpeed = 10f;
+    [HideInInspector]
+    public float speed;
+
     PlayerState player;
 
     public int[] percentage =
@@ -28,7 +29,7 @@ public class Enemy : MonoBehaviour
     private void Start()
     {
         player = GameObject.Find("GameManager").GetComponent<PlayerState>();
-        target = WayPoints.points[0];
+        speed = startSpeed;
         hp = maxHp;
         foreach(var item in percentage)
         {
@@ -39,40 +40,24 @@ public class Enemy : MonoBehaviour
 
     private void Update()
     {
-        Vector3 dir = target.position - transform.position;
-        transform.Translate(dir.normalized*speed *Time.deltaTime,Space.World);
-
-        if(Vector3.Distance(transform.position, target.position)<= 0.4f)
-        {
-            GetNextWaypoint();
-        }
-
-        transform.localRotation =
-            Quaternion.Slerp(transform.localRotation,
-            Quaternion.LookRotation(dir), 5 * Time.deltaTime);
-        if(hp <= 0f)
+        if (hp <= 0f)
         {
             EnemyDie();
         }
     }
 
-    void GetNextWaypoint()
+    public void TakeDamage(float amount)
     {
-        if(wavepointIndex >= WayPoints.points.Length -1)
-        {
-            player.SendMessage("Hit");
-            player.currentMoney -= gold;
-            Destroy(gameObject);
-            return;
-        }
-        wavepointIndex++;
-        target = WayPoints.points[wavepointIndex];
-
+        hp -= amount;
     }
 
     void Damage(float damage)
     {
         hp -= damage;
+    }
+    public void Slow(float pct)
+    {
+        speed = startSpeed * (1f - pct);
     }
 
     private void OnDestroy()

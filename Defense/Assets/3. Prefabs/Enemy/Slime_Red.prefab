@@ -389,6 +389,7 @@ GameObject:
   - component: {fileID: 95000010450722992}
   - component: {fileID: -8114512471043666014}
   - component: {fileID: 887833476873963984}
+  - component: {fileID: 5334535689812222948}
   m_Layer: 0
   m_Name: Slime_Red
   m_TagString: Enemy
@@ -459,8 +460,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hp: 0
-  maxHp: 90
-  gold: 25
+  maxHp: 150
+  gold: 30
+  startSpeed: 15
   speed: 20
   percentage: 460000000a0000000a0000000a000000
   total: 0
@@ -468,7 +470,19 @@ MonoBehaviour:
   - {fileID: 8025125118609062886, guid: 9aca06c74b4388249ac195842b9f313a, type: 3}
   - {fileID: 1238260032330606, guid: 63f20d6cb1156bc44a0d3da6e4e23486, type: 3}
   - {fileID: 1440041658193322, guid: 2a01cd6b4d3a34a469e5d5836c4eef1b, type: 3}
-  - {fileID: 1374755803494742, guid: 339e91898d045d0408f709f4a23a62d9, type: 3}
+  - {fileID: 1412290364867976, guid: 0617407bb41ab4b5ab29067dcffb6b9e, type: 3}
+--- !u!114 &5334535689812222948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000013297890758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2057dc8d2d13884f8059f8f78cf8722, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1000013341563594
 GameObject:
   m_ObjectHideFlags: 0
