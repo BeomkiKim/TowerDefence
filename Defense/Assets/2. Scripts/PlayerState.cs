@@ -25,7 +25,7 @@ public class PlayerState : MonoBehaviour
         currentMoney = startMoney;
         currentLife = maxlife;
         redCount = 0;
-        blueCount = 0;
+        blueCount = 10;
         yellowCount = 0;
     }
 

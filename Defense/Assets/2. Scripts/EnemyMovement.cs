@@ -10,6 +10,8 @@ public class EnemyMovement : MonoBehaviour
     PlayerState player;
 
     Enemy enemy;
+    public float iceTime;
+
 
 
     // Start is called before the first frame update
@@ -30,7 +32,13 @@ public class EnemyMovement : MonoBehaviour
         {
             GetNextWaypoint();
         }
-        enemy.speed = enemy.startSpeed;
+
+        if(iceTime > 0f)
+        {
+            StartCoroutine(IceTimeStart());
+        }    
+        else
+            enemy.speed = enemy.startSpeed;
 
 
         transform.localRotation =
@@ -50,6 +58,14 @@ public class EnemyMovement : MonoBehaviour
         }
         wavepointIndex++;
         target = WayPoints.points[wavepointIndex];
+
+    }
+
+    IEnumerator IceTimeStart()
+    {
+        yield return new WaitForSeconds(iceTime);
+        enemy.speed = enemy.startSpeed;
+        iceTime = 0f;
 
     }
 }

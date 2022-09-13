@@ -8,6 +8,7 @@ public class Enemy : MonoBehaviour
     public float startSpeed = 10f;
     [HideInInspector]
     public float speed;
+    EnemyMovement enemyMove;
 
     PlayerState player;
 
@@ -28,7 +29,9 @@ public class Enemy : MonoBehaviour
 
     private void Start()
     {
+        
         player = GameObject.Find("GameManager").GetComponent<PlayerState>();
+        enemyMove = GetComponent<EnemyMovement>();
         speed = startSpeed;
         hp = maxHp;
         foreach(var item in percentage)
@@ -51,9 +54,14 @@ public class Enemy : MonoBehaviour
         hp -= amount;
     }
 
-    void Damage(float damage)
+    public void Damage(float damage)
     {
         hp -= damage;
+    }
+    public void SlowBullet(float pct)
+    {
+        enemyMove.iceTime += 1f;
+        speed = startSpeed * (1f - pct);
     }
     public void Slow(float pct)
     {

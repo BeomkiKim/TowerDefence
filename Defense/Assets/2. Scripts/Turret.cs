@@ -24,6 +24,8 @@ public class Turret : MonoBehaviour
 
     [Header("æ∆¿ÃΩ∫")]
     public bool useLaser = false;
+    public GameObject iceEffect;
+    public Transform secondFirePoint;
 
     public int damagerOverTime = 20;
     public float slowPct = 0.5f;
@@ -34,6 +36,10 @@ public class Turret : MonoBehaviour
     private void Start()
     {
         InvokeRepeating("UpdateTarget", 0f, 0.5f);
+        if (secondFirePoint == null)
+            return;
+        if (iceEffect == null)
+            return;
     }
 
     void UpdateTarget()
@@ -104,11 +110,15 @@ public class Turret : MonoBehaviour
         partToRotate.rotation = Quaternion.Euler(0f, rotation.y, 0f);
     }
 
+
     void Laser()
     {
         targetEnemy.TakeDamage(damagerOverTime * Time.deltaTime);
         targetEnemy.Slow(slowPct);
-
+        GameObject effectIns = (GameObject)Instantiate(iceEffect, firePoint.position, firePoint.rotation);
+        GameObject secondEffectIns = (GameObject)Instantiate(iceEffect, secondFirePoint.position, secondFirePoint.rotation);
+        Destroy(effectIns, 0.5f);
+        Destroy(secondEffectIns, 0.5f);
         if (!lineRenderer.enabled)
             lineRenderer.enabled = true;
         lineRenderer.SetPosition(0, firePoint.position);

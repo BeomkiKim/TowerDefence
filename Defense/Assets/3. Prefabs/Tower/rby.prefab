@@ -41,6 +41,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1019261348520972792}
   - component: {fileID: 1019261348521397721}
+  - component: {fileID: 4847921229977981832}
   m_Layer: 0
   m_Name: rby
   m_TagString: Untagged
@@ -79,7 +80,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  nextTarget: {fileID: 0}
+  cost: 0
   range: 15
   fireRate: 1.5
   enemyTag: Enemy
@@ -88,6 +89,33 @@ MonoBehaviour:
   bulletPrefab: {fileID: 7966328825375057033, guid: 5e2143c3f29c1184f9ae17e32bd6668d, type: 3}
   firePoint: {fileID: 1785491778}
   useLaser: 0
+  damagerOverTime: 20
+  slowPct: 0.5
+  lineRenderer: {fileID: 0}
+--- !u!114 &4847921229977981832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1019261348521397720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd0843d9ddf184e4e818b4f61ba63882, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  cost: 0
+  range: 15
+  fireRate: 1
+  enemyTag: Enemy
+  partToRotate: {fileID: 0}
+  turnSpeed: 10
+  bulletPrefab: {fileID: 0}
+  firePoint: {fileID: 0}
+  useLaser: 0
+  damagerOverTime: 20
+  slowPct: 0.5
   lineRenderer: {fileID: 0}
 --- !u!1 &1019261348521397722
 GameObject:

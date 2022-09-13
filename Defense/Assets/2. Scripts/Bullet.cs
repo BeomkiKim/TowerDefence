@@ -11,6 +11,9 @@ public class Bullet : MonoBehaviour
 
     public GameObject impactEffect;
 
+    public bool iceBullet = false;
+    public float slowPercent;
+
 
     public void Seek(Transform _target)
     {
@@ -29,7 +32,7 @@ public class Bullet : MonoBehaviour
 
         if(dir.magnitude <= distanceTisFrame)
         {
-            HitTarget();
+            HitTarget(target);
             return;
         }
 
@@ -40,18 +43,35 @@ public class Bullet : MonoBehaviour
         Quaternion.LookRotation(dir), 5 * Time.deltaTime);
     }
 
-	void HitTarget ()
+	void HitTarget (Transform enemy)
 	{
 		GameObject effectIns = (GameObject)Instantiate(impactEffect, transform.position, transform.rotation);
 		Destroy(effectIns, 5f);
 
-		if (explosionRadius > 0f)
-		{
-			Explode();
-		} else
-		{
-			Damage(target);
-		}
+        if (explosionRadius > 0f && !iceBullet)
+        {
+            Explode();
+        }
+        else if (iceBullet && !(explosionRadius >0f))
+        {
+            enemy.SendMessage("SlowBullet", slowPercent);
+        }
+        else if(iceBullet && explosionRadius>0f)
+        {
+            Collider[] colliders = Physics.OverlapSphere(transform.position, explosionRadius);
+            foreach (Collider collider in colliders)
+            {
+                if (collider.tag == "Enemy")
+                {
+                    Damage(collider.transform);
+                    collider.transform.SendMessage("SlowBullet", slowPercent);
+                }
+            }
+        }
+        else
+        {
+            Damage(target);
+        }
 
 		Destroy(gameObject);
 	}

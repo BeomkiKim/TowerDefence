@@ -29039,6 +29039,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4176545379013232}
+  - component: {fileID: 3735018479828515249}
   m_Layer: 0
   m_Name: bbb
   m_TagString: Untagged
@@ -29063,6 +29064,33 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3735018479828515249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486504132475116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd0843d9ddf184e4e818b4f61ba63882, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  cost: 0
+  range: 15
+  fireRate: 1
+  enemyTag: Enemy
+  partToRotate: {fileID: 4182380984106686}
+  turnSpeed: 10
+  bulletPrefab: {fileID: 1552339098034316, guid: e178f7b7d324845479aae610a00127a3, type: 3}
+  firePoint: {fileID: 4718321742500210}
+  useLaser: 0
+  iceEffect: {fileID: 0}
+  secondFirePoint: {fileID: 0}
+  damagerOverTime: 20
+  slowPct: 0.5
+  lineRenderer: {fileID: 0}
 --- !u!1 &1572104001612100
 GameObject:
   m_ObjectHideFlags: 0
