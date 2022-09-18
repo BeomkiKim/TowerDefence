@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Enemy : MonoBehaviour
 {
@@ -11,6 +12,8 @@ public class Enemy : MonoBehaviour
     EnemyMovement enemyMove;
 
     PlayerState player;
+
+    public Image healthBar;
 
     public int[] percentage =
     {
@@ -52,11 +55,13 @@ public class Enemy : MonoBehaviour
     public void TakeDamage(float amount)
     {
         hp -= amount;
+        healthBar.fillAmount = hp/maxHp;
     }
 
     public void Damage(float damage)
     {
         hp -= damage;
+        healthBar.fillAmount = hp/maxHp;
     }
     public void SlowBullet(float pct)
     {

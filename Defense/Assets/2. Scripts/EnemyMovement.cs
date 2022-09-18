@@ -40,7 +40,7 @@ public class EnemyMovement : MonoBehaviour
         else
             enemy.speed = enemy.startSpeed;
 
-
+        
         transform.localRotation =
             Quaternion.Slerp(transform.localRotation,
             Quaternion.LookRotation(dir), 5 * Time.deltaTime);
