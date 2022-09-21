@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 4389153839620792}
   - component: {fileID: 3872636697492579292}
   m_Layer: 0
-  m_Name: bbr_Bullet
+  m_Name: bbb_Bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -128,9 +128,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 936b75d8901842642ba9a3a4648a3bee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPower: 12
+  bulletPower: 15
   speed: 70
-  explosionRadius: 7
+  explosionRadius: 0
   impactEffect: {fileID: 1949398963624892, guid: 06da7b971ed279940ad6ebe211493091, type: 3}
   iceBullet: 1
   slowPercent: 1
+  slowTime: 1.5

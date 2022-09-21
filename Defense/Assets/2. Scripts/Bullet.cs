@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    Transform target;
+    public Transform target;
 
     public float bulletPower;
     public float speed = 70f;
@@ -13,11 +13,13 @@ public class Bullet : MonoBehaviour
 
     public bool iceBullet = false;
     public float slowPercent;
+    public float slowTime;
 
 
     public void Seek(Transform _target)
     {
         target = _target;
+        
     }
     void Update()
     {
@@ -27,20 +29,21 @@ public class Bullet : MonoBehaviour
             return;
         }
 
+
         Vector3 dir = target.position - transform.position;
         float distanceTisFrame = speed * Time.deltaTime;
 
-        if(dir.magnitude <= distanceTisFrame)
+        if (dir.magnitude <= distanceTisFrame)
         {
             HitTarget(target);
             return;
         }
 
-        transform.Translate(dir.normalized * distanceTisFrame, Space.World);
-        transform.LookAt(target);
-        transform.localRotation =
-        Quaternion.Slerp(transform.localRotation,
-        Quaternion.LookRotation(dir), 5 * Time.deltaTime);
+            transform.Translate(dir.normalized * distanceTisFrame, Space.World);
+            transform.LookAt(target);
+            transform.localRotation =
+            Quaternion.Slerp(transform.localRotation,
+            Quaternion.LookRotation(dir), 5 * Time.deltaTime);
     }
 
 	void HitTarget (Transform enemy)
@@ -52,11 +55,15 @@ public class Bullet : MonoBehaviour
         {
             Explode();
         }
-        else if (iceBullet && !(explosionRadius >0f))
+        else if (iceBullet && explosionRadius == 0f) //bbb
         {
             enemy.SendMessage("SlowBullet", slowPercent);
+            enemy.SendMessage("SlowTime", slowTime);
+
+
+            Damage(target);
         }
-        else if(iceBullet && explosionRadius>0f)
+        else if(iceBullet && explosionRadius>0f)//bbr
         {
             Collider[] colliders = Physics.OverlapSphere(transform.position, explosionRadius);
             foreach (Collider collider in colliders)
@@ -65,6 +72,7 @@ public class Bullet : MonoBehaviour
                 {
                     Damage(collider.transform);
                     collider.transform.SendMessage("SlowBullet", slowPercent);
+                    enemy.SendMessage("SlowTime", slowTime);
                 }
             }
         }
@@ -73,7 +81,7 @@ public class Bullet : MonoBehaviour
             Damage(target);
         }
 
-		Destroy(gameObject);
+        Destroy(gameObject);
 	}
     void Explode()
     {

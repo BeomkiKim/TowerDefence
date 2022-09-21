@@ -63,12 +63,16 @@ public class Enemy : MonoBehaviour
         hp -= damage;
         healthBar.fillAmount = hp/maxHp;
     }
+    public void SlowTime(float value)
+    {
+        enemyMove.iceTime += value;
+    }
     public void SlowBullet(float pct)
     {
-        enemyMove.iceTime += 1f;
+        
         speed = startSpeed * (1f - pct);
     }
-    public void Slow(float pct)
+    public void Slow(float pct)//laser slow
     {
         speed = startSpeed * (1f - pct);
     }

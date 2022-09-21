@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class PlayerState : MonoBehaviour
 {
-    float startMoney = 300f;
+    float startMoney = 1000f;
     public float currentMoney;
     public int currentLife;
     int maxlife = 3;
@@ -24,9 +24,9 @@ public class PlayerState : MonoBehaviour
     {
         currentMoney = startMoney;
         currentLife = maxlife;
-        redCount = 0;
+        redCount = 10;
         blueCount = 10;
-        yellowCount = 0;
+        yellowCount = 10;
     }
 
     private void Update()
