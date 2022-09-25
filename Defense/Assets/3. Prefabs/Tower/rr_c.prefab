@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4761264066860538}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Eff_TorchL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42,7 +42,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4885316424166570}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Eff_TorchR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75,7 +75,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4828654393573132}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ShootPointL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107,7 +107,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4775489289248668}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Barrel_Axis
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -141,7 +141,7 @@ GameObject:
   - component: {fileID: 4880802898010178}
   - component: {fileID: 198064847589586362}
   - component: {fileID: 199993313534406664}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: FireFx
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4970,7 +4970,7 @@ GameObject:
   - component: {fileID: 4363068171338936}
   - component: {fileID: 198466041481955238}
   - component: {fileID: 199600802468410654}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Eff_GasFire
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9795,8 +9795,8 @@ GameObject:
   - component: {fileID: 4561188366993332}
   - component: {fileID: -8714925059683422075}
   - component: {fileID: 6303382622768750100}
-  m_Layer: 0
-  m_Name: rr
+  m_Layer: 9
+  m_Name: rr_c
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9843,7 +9843,7 @@ MonoBehaviour:
   useLaser: 1
   iceEffect: {fileID: 1866826301469564, guid: 5444340a0720fc341b5a7e7a3fa1e3f4, type: 3}
   secondFirePoint: {fileID: 4415934459517174}
-  damagerOverTime: 20
+  damagerOverTime: 12
   slowPct: 0
   lineRenderer: {fileID: 6303382622768750100}
 --- !u!120 &6303382622768750100
@@ -9956,7 +9956,7 @@ GameObject:
   - component: {fileID: 4632077890909814}
   - component: {fileID: 33912582912364174}
   - component: {fileID: 23893324608197720}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: FlamerR_Barrel03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10041,7 +10041,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4807502217468640}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Turret
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10076,7 +10076,7 @@ GameObject:
   - component: {fileID: 4826478106919472}
   - component: {fileID: 198145576760716080}
   - component: {fileID: 199273680058543408}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: FireFx
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14905,7 +14905,7 @@ GameObject:
   - component: {fileID: 4206340977939066}
   - component: {fileID: 198263885518938062}
   - component: {fileID: 199510541292364520}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Eff_Glow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19730,7 +19730,7 @@ GameObject:
   - component: {fileID: 4621590696696582}
   - component: {fileID: 33994793137804466}
   - component: {fileID: 23484038063193926}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: FlamerR_Plate00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19811,7 +19811,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4415934459517174}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ShootPointR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19845,7 +19845,7 @@ GameObject:
   - component: {fileID: 4630830068815284}
   - component: {fileID: 33617527380716056}
   - component: {fileID: 23221168258722068}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: FlamerR_Stand00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19928,7 +19928,7 @@ GameObject:
   - component: {fileID: 4005863077195064}
   - component: {fileID: 198280487474564274}
   - component: {fileID: 199534748290640314}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Eff_GasFire
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24753,7 +24753,7 @@ GameObject:
   - component: {fileID: 4293562941111288}
   - component: {fileID: 198401511682217290}
   - component: {fileID: 199578196311009032}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Eff_Glow
   m_TagString: Untagged
   m_Icon: {fileID: 0}

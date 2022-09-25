@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4371000322092592}
   - component: {fileID: 198451222217933528}
   - component: {fileID: 199761967340416176}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Glow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4834,7 +4834,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4410935412650590}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ShootPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4868,7 +4868,7 @@ GameObject:
   - component: {fileID: 4964574874273262}
   - component: {fileID: 198260578491692972}
   - component: {fileID: 199868631679348560}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: FireFx
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9697,7 +9697,7 @@ GameObject:
   - component: {fileID: 4828342953569626}
   - component: {fileID: 33472397536205596}
   - component: {fileID: 23362956743842476}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: PlasmaB_Stand00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9778,7 +9778,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4722174138953404}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Eff_Glow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9813,7 +9813,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4341324291577560}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Turret
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9848,7 +9848,7 @@ GameObject:
   - component: {fileID: 4825447283234750}
   - component: {fileID: 198907853834077160}
   - component: {fileID: 199535137307781948}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Eff_Pulse (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14673,7 +14673,7 @@ GameObject:
   - component: {fileID: 4831828843102276}
   - component: {fileID: 33895678873740556}
   - component: {fileID: 23700950955378092}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: PlasmaB_Plate00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14755,7 +14755,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4367432886333508}
   - component: {fileID: 6623001743070558878}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: by
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14801,6 +14801,8 @@ MonoBehaviour:
   bulletPrefab: {fileID: 0}
   firePoint: {fileID: 0}
   useLaser: 0
+  iceEffect: {fileID: 0}
+  secondFirePoint: {fileID: 0}
   damagerOverTime: 20
   slowPct: 0.5
   lineRenderer: {fileID: 0}
@@ -14815,7 +14817,7 @@ GameObject:
   - component: {fileID: 4039184514712148}
   - component: {fileID: 198776626801563844}
   - component: {fileID: 199695410025635828}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Glow (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19638,7 +19640,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4365154018249742}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Barrel_Axis
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19672,7 +19674,7 @@ GameObject:
   - component: {fileID: 4482447571778390}
   - component: {fileID: 33722870086598512}
   - component: {fileID: 23156421404720326}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: PlasmaB_Barrel02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19757,7 +19759,7 @@ GameObject:
   - component: {fileID: 4190518144498774}
   - component: {fileID: 198782401854509248}
   - component: {fileID: 199986522993841616}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Eff_Pulse
   m_TagString: Untagged
   m_Icon: {fileID: 0}

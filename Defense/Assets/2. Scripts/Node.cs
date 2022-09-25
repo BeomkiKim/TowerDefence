@@ -20,7 +20,10 @@ public class Node : MonoBehaviour
     public int yellowUpgradeCount;
 
     public int totalUpgradeCount;
-    public float totalTurretCost = 100; 
+    public float totalTurretCost = 100;
+
+    bool isNode;
+    bool isUi;
 
 
     private void Start()
@@ -38,20 +41,30 @@ public class Node : MonoBehaviour
     }
     private void OnMouseDown()
     {
-        
-        if(turret != null && !EventSystem.current.IsPointerOverGameObject())
+        int layerMask = 1 << 8;
+
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+
+        isNode = Physics.Raycast(ray, out RaycastHit hit, Mathf.Infinity, layerMask);
+
+
+        isUi = EventSystem.current.IsPointerOverGameObject();
+        if (turret != null && !isUi && isNode)
         {
             buildManager.SelectNode(this);
+            
             return;
         }
 
-        if (player.currentMoney >= turretCost && player.currentMoney > 0 && !EventSystem.current.IsPointerOverGameObject())
+        if (player.currentMoney >= turretCost && player.currentMoney > 0 && !isUi &&isNode)
         {
             buildManager.SelectTurretToBuild();
             player.SendMessage("Set");
             GameObject turretToBuild = BuildManager.instance.GetTurretToBuild();
             turret = (GameObject)Instantiate(turretToBuild, GetBuildPosition(), Quaternion.identity);
+            
         }
+        //Debug.Log(hit.collider.gameObject);
     }
     private void OnMouseEnter()
     {

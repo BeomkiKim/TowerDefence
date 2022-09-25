@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4577832448075030}
   - component: {fileID: 33922273423602054}
   - component: {fileID: 23565386256367340}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: MissileR_Radar00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4330919261177252}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: MissileR_Barrel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -126,7 +126,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4901821957689660}
   - component: {fileID: 105138430103814259}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: r_c
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -188,7 +188,7 @@ GameObject:
   - component: {fileID: 4529832570366962}
   - component: {fileID: 33796385423214328}
   - component: {fileID: 23736206638788586}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: MissileR_Plate00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -271,7 +271,7 @@ GameObject:
   - component: {fileID: 4153544087630248}
   - component: {fileID: 33595947729747998}
   - component: {fileID: 23291657656030148}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: MissileR_Barrel00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -355,7 +355,7 @@ GameObject:
   - component: {fileID: 4001369893298854}
   - component: {fileID: 198720890808499216}
   - component: {fileID: 199322267635034424}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: FireFx
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5181,7 +5181,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4172867296306330}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ShootPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5215,7 +5215,7 @@ GameObject:
   - component: {fileID: 4426971757126162}
   - component: {fileID: 33186851488895810}
   - component: {fileID: 23239301668987632}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: MissileR_Stand00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5296,7 +5296,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4136221624357804}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Turret
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1785491778}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: FirePoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 1019261348520972792}
   - component: {fileID: 1019261348521397721}
   - component: {fileID: 4847921229977981832}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: rby
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89,6 +89,8 @@ MonoBehaviour:
   bulletPrefab: {fileID: 7966328825375057033, guid: 5e2143c3f29c1184f9ae17e32bd6668d, type: 3}
   firePoint: {fileID: 1785491778}
   useLaser: 0
+  iceEffect: {fileID: 0}
+  secondFirePoint: {fileID: 0}
   damagerOverTime: 20
   slowPct: 0.5
   lineRenderer: {fileID: 0}
@@ -114,6 +116,8 @@ MonoBehaviour:
   bulletPrefab: {fileID: 0}
   firePoint: {fileID: 0}
   useLaser: 0
+  iceEffect: {fileID: 0}
+  secondFirePoint: {fileID: 0}
   damagerOverTime: 20
   slowPct: 0.5
   lineRenderer: {fileID: 0}
@@ -128,7 +132,7 @@ GameObject:
   - component: {fileID: 1019261348520972794}
   - component: {fileID: 1019261348520169946}
   - component: {fileID: 1019261348519203610}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Temperature
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -211,7 +215,7 @@ GameObject:
   - component: {fileID: 1019261348520972796}
   - component: {fileID: 1019261348520169948}
   - component: {fileID: 1019261348519203612}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -294,7 +298,7 @@ GameObject:
   - component: {fileID: 1019261348520972798}
   - component: {fileID: 1019261348520169950}
   - component: {fileID: 1019261348519203614}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -375,7 +379,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2927856155735526410}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: PartToRotate
   m_TagString: Untagged
   m_Icon: {fileID: 0}

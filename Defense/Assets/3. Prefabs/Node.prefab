@@ -110,3 +110,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a89ff106fb3a524b94055388fa7f969, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffet: {x: 0, y: 0, z: 0}
+  player: {fileID: 0}
+  turretCost: 100
+  turretBlueprint: {fileID: 0}
+  redUpgradeCount: 0
+  blueUpgradeCount: 0
+  yellowUpgradeCount: 0
+  totalUpgradeCount: 0
+  totalTurretCost: 100

@@ -128,10 +128,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 936b75d8901842642ba9a3a4648a3bee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  target: {fileID: 0}
   bulletPower: 8
   speed: 70
   explosionRadius: 0
   impactEffect: {fileID: 1982429669881753295, guid: 480dc4d36d2165a4d8ce4e114d5203db, type: 3}
   iceBullet: 1
   slowPercent: 0.3
-  slowTime: 0
+  slowTime: 0.5

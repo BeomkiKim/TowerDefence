@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4510126627900348}
   - component: {fileID: 33925928961394408}
   - component: {fileID: 23851190547600094}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: CatapultY_Plate00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4616266598581214}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Turret
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -125,7 +125,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4586726190887196}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ShootPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -158,7 +158,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4166286097268126}
   - component: {fileID: 4668354551112342483}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ry
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -204,6 +204,8 @@ MonoBehaviour:
   bulletPrefab: {fileID: 0}
   firePoint: {fileID: 0}
   useLaser: 0
+  iceEffect: {fileID: 0}
+  secondFirePoint: {fileID: 0}
   damagerOverTime: 20
   slowPct: 0.5
   lineRenderer: {fileID: 0}
@@ -218,7 +220,7 @@ GameObject:
   - component: {fileID: 4052299651607342}
   - component: {fileID: 33030594984716662}
   - component: {fileID: 23084858728089254}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: CatapultY_Arm03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -302,7 +304,7 @@ GameObject:
   - component: {fileID: 4624709620551050}
   - component: {fileID: 33948652295582788}
   - component: {fileID: 23878064762983652}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: CatapultY_Stand00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -385,7 +387,7 @@ GameObject:
   - component: {fileID: 4439710238444500}
   - component: {fileID: 198517849173491344}
   - component: {fileID: 199348035570058932}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: FireFx
   m_TagString: Untagged
   m_Icon: {fileID: 0}

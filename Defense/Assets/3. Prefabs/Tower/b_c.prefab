@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4961601867387508}
   - component: {fileID: 198877103734963544}
   - component: {fileID: 199701729159814130}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: FireFx
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4839,7 +4839,7 @@ GameObject:
   - component: {fileID: 4673391933357476}
   - component: {fileID: 33441197496714120}
   - component: {fileID: 23953199197124080}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: MissileB_Barrel00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4923,7 +4923,7 @@ GameObject:
   - component: {fileID: 4327097932256078}
   - component: {fileID: 33731992555879064}
   - component: {fileID: 23817202892336142}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: MissileB_Stand00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5006,7 +5006,7 @@ GameObject:
   - component: {fileID: 4068710650273428}
   - component: {fileID: 33634681824754878}
   - component: {fileID: 23146070831411810}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: MissileB_Plate00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5087,7 +5087,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4041823029742928}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Turret
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5120,7 +5120,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4538254868368550}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: MissileB_Barrel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5153,7 +5153,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4867698034856818}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ShootPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5187,7 +5187,7 @@ GameObject:
   - component: {fileID: 4416974765975656}
   - component: {fileID: 33383374555842816}
   - component: {fileID: 23210416902786970}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: MissileB_Radar00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5269,7 +5269,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4541394473518354}
   - component: {fileID: -5858789380971266705}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: b_c
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5315,6 +5315,8 @@ MonoBehaviour:
   bulletPrefab: {fileID: 1552339098034316, guid: c66ffffeb79eaca47bb27b2a68fbe43b, type: 3}
   firePoint: {fileID: 4867698034856818}
   useLaser: 0
+  iceEffect: {fileID: 0}
+  secondFirePoint: {fileID: 0}
   damagerOverTime: 20
   slowPct: 0.5
   lineRenderer: {fileID: 0}
