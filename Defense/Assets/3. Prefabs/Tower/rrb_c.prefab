@@ -5333,8 +5333,11 @@ MonoBehaviour:
   rTowerPower: 10
   explosionRadius: 12
   ice: 1
+  poision: 0
   slowPercent: 0.3
   slowTime: 0.5
+  fireRate: 0.1
+  poisionPercent: 0
 --- !u!54 &1441706139
 Rigidbody:
   m_ObjectHideFlags: 0

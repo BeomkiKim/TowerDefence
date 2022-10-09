@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -15,6 +17,9 @@ public class Enemy : MonoBehaviour
 
     public Image healthBar;
 
+    public bool isKotlin;
+    public float poiDmg;
+
     public int[] percentage =
     {
         70,
@@ -28,7 +33,7 @@ public class Enemy : MonoBehaviour
     public GameObject[] dropItemPrefab;
     int randomNumber;
 
-
+    public float poisionTime;
 
     private void Start()
     {
@@ -50,18 +55,29 @@ public class Enemy : MonoBehaviour
         {
             EnemyDie();
         }
+
+        if(poisionTime>0.0f)
+        {
+            poisionTime -= Time.deltaTime;
+
+            if(!isKotlin)
+                StartCoroutine(Poision(poiDmg));
+        }
+        if(poisionTime<=0.0f)
+        {
+            poisionTime = 0;
+        }
+        healthBar.fillAmount = hp / maxHp;
     }
 
     public void TakeDamage(float amount)
     {
         hp -= amount;
-        healthBar.fillAmount = hp/maxHp;
     }
 
     public void Damage(float damage)
     {
         hp -= damage;
-        healthBar.fillAmount = hp/maxHp;
     }
     public void SlowTime(float value)
     {
@@ -75,6 +91,13 @@ public class Enemy : MonoBehaviour
     public void Slow(float pct)//laser slow
     {
         speed = startSpeed * (1f - pct);
+    }
+    public void PoisionDamage(float dmg)
+    {
+        poisionTime += 3.0f;
+        poiDmg = dmg;
+        
+
     }
 
     private void OnDestroy()
@@ -109,5 +132,18 @@ public class Enemy : MonoBehaviour
     {
         DropItem();
         Destroy(gameObject);
+    }
+
+    IEnumerator Poision(float dmg)
+    {
+        isKotlin = true;
+        yield return new WaitForSeconds(1.0f);
+        hp -= (maxHp * dmg);
+        yield return new WaitForSeconds(1.0f);
+        hp -= (maxHp * dmg);
+        yield return new WaitForSeconds(1.0f);
+        hp -= (maxHp * dmg);
+        isKotlin = false;
+
     }
 }

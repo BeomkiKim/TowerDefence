@@ -145,5 +145,8 @@ MonoBehaviour:
   rTowerPower: 15
   explosionRadius: 12
   ice: 0
+  poision: 0
   slowPercent: 0
   slowTime: 0
+  fireRate: 0.1
+  poisionPercent: 0

@@ -15,6 +15,10 @@ public class Bullet : MonoBehaviour
     public float slowPercent;
     public float slowTime;
 
+    public bool poisionBullet = false;
+    public float poisionPercent;
+
+
 
     public void Seek(Transform _target)
     {
@@ -51,11 +55,11 @@ public class Bullet : MonoBehaviour
 		GameObject effectIns = (GameObject)Instantiate(impactEffect, transform.position, transform.rotation);
 		Destroy(effectIns, 5f);
 
-        if (explosionRadius > 0f && !iceBullet)
+        if (explosionRadius > 0f && !iceBullet && !poisionBullet)
         {
             Explode();
         }
-        else if (iceBullet && explosionRadius == 0f) //bbb
+        else if (iceBullet && explosionRadius == 0f && !poisionBullet) //bbb
         {
             enemy.SendMessage("SlowBullet", slowPercent);
             enemy.SendMessage("SlowTime", slowTime);
@@ -63,7 +67,7 @@ public class Bullet : MonoBehaviour
 
             Damage(target);
         }
-        else if(iceBullet && explosionRadius>0f)//bbr
+        else if (iceBullet && explosionRadius > 0f && !poisionBullet)//bbr
         {
             Collider[] colliders = Physics.OverlapSphere(transform.position, explosionRadius);
             foreach (Collider collider in colliders)
@@ -72,9 +76,33 @@ public class Bullet : MonoBehaviour
                 {
                     Damage(collider.transform);
                     collider.transform.SendMessage("SlowBullet", slowPercent);
-                    enemy.SendMessage("SlowTime", slowTime);
+                    collider.transform.SendMessage("SlowTime", slowTime);
                 }
             }
+        }
+        else if (poisionBullet && explosionRadius > 0f && !iceBullet)
+        {
+            Collider[] colliders = Physics.OverlapSphere(transform.position, explosionRadius);
+            foreach (Collider collider in colliders)
+            {
+                if (collider.tag == "Enemy")
+                {
+                    Damage(collider.transform);
+                    collider.transform.SendMessage("PoisionDamage", poisionPercent);
+                }
+            }
+        }
+        else if (!iceBullet && explosionRadius == 0f && poisionBullet)
+        {
+            enemy.SendMessage("PoisionDamage", poisionPercent);
+            Damage(target);
+        }
+        else if (iceBullet && explosionRadius == 0f && poisionBullet)
+        {
+            enemy.SendMessage("SlowBullet", slowPercent);
+            enemy.SendMessage("SlowTime", slowTime);
+            enemy.SendMessage("PoisionDamage", poisionPercent);
+            Damage(target);
         }
         else
         {

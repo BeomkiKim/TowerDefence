@@ -14,7 +14,7 @@ public class BuildManager : MonoBehaviour
         {
             return;
         }
-
+        Screen.SetResolution(1280, 720, false);
         instance = this;
     }
     private void Start()

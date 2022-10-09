@@ -4,7 +4,6 @@ using UnityEngine;
 public class Turret : MonoBehaviour
 {
     public Transform target;
-    public float cost;
 
     Enemy targetEnemy;
 
@@ -32,8 +31,11 @@ public class Turret : MonoBehaviour
 
     public LineRenderer lineRenderer;
 
+    public bool isAnim;
+    Animator anim;
     private void Start()
     {
+        anim = GetComponent<Animator>();
         InvokeRepeating("UpdateTarget", 0f, 0.5f);
         if (secondFirePoint == null)
             return;
@@ -51,7 +53,7 @@ public class Turret : MonoBehaviour
         foreach (GameObject enemy in enemies)
         {
             float distanceToEnemy = Vector3.Distance(transform.position, enemy.transform.position);
-            if(distanceToEnemy < shortestDistance)
+            if (distanceToEnemy < shortestDistance)
             {
                 shortestDistance = distanceToEnemy;
                 nearestEnemy = enemy;
@@ -59,22 +61,22 @@ public class Turret : MonoBehaviour
             }
         }
 
-        if(nearestEnemy != null && shortestDistance <= range)
+        if (nearestEnemy != null && shortestDistance <= range)
         {
             target = nearestEnemy.transform;
             targetEnemy = nearestEnemy.GetComponent<Enemy>();
         }
-        else{ target = null; }
+        else { target = null; }
     }
     private void Update()
     {
         if (target == null)
         {
-            if(useLaser)
+            if (useLaser)
             {
                 if (lineRenderer.enabled)
                     lineRenderer.enabled = false;
-            }    
+            }
             return;
 
         }
@@ -82,7 +84,7 @@ public class Turret : MonoBehaviour
 
         LockOnTarget();
 
-        if(useLaser)
+        if (useLaser)
         {
             Laser();
         }
@@ -90,14 +92,17 @@ public class Turret : MonoBehaviour
         {
             if (fireCountdown <= 0f)
             {
-                Shoot();
+                if (isAnim)
+                    RbShoot();
+                else
+                    Shoot();
                 fireCountdown = 1f / fireRate;
 
             }
             fireCountdown -= Time.deltaTime;
         }
-        
-     
+
+
 
 
     }
@@ -131,6 +136,12 @@ public class Turret : MonoBehaviour
 
         if (bullet != null)
             bullet.Seek(target);//seek함수 : 찾기
+    }
+    void RbShoot()
+    {
+        
+        Shoot();
+        anim.Play("Attack");
     }
 
     private void OnDrawGizmosSelected()
