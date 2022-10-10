@@ -41507,6 +41507,7 @@ MonoBehaviour:
   - {fileID: 4000010693723324, guid: 529296adea5f8bb4581e098f98e62549, type: 3}
   spawnPoint: {fileID: 412251251}
   timeBetweenWaves: 30
+  countdown: 2
   waveCountdownText: {fileID: 568858104}
 --- !u!114 &1862239090
 MonoBehaviour:
@@ -43943,7 +43944,7 @@ Transform:
   - {fileID: 1588576823}
   - {fileID: 769017010}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1951598730
 GameObject:
@@ -47280,63 +47281,6 @@ MonoBehaviour:
   - {fileID: 1324735911950168, guid: 42ec26c6b833c3049a6bc91eee0a7230, type: 3}
   - {fileID: 1968004266931940, guid: dbd6c4b0b6e44224b87b78e665e471bd, type: 3}
   - {fileID: 1955401418672640, guid: 1ea26a904d6a44b4e9455996be9e19c1, type: 3}
---- !u!1001 &2123533174
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2720497517758890309, guid: e68f99d77ecd6454e972cbf1ade46e7e, type: 3}
-      propertyPath: m_RootOrder
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 2720497517758890309, guid: e68f99d77ecd6454e972cbf1ade46e7e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2720497517758890309, guid: e68f99d77ecd6454e972cbf1ade46e7e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2720497517758890309, guid: e68f99d77ecd6454e972cbf1ade46e7e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2720497517758890309, guid: e68f99d77ecd6454e972cbf1ade46e7e, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2720497517758890309, guid: e68f99d77ecd6454e972cbf1ade46e7e, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2720497517758890309, guid: e68f99d77ecd6454e972cbf1ade46e7e, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2720497517758890309, guid: e68f99d77ecd6454e972cbf1ade46e7e, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2720497517758890309, guid: e68f99d77ecd6454e972cbf1ade46e7e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2720497517758890309, guid: e68f99d77ecd6454e972cbf1ade46e7e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2720497517758890309, guid: e68f99d77ecd6454e972cbf1ade46e7e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2720497517759192421, guid: e68f99d77ecd6454e972cbf1ade46e7e, type: 3}
-      propertyPath: m_Name
-      value: StandTurret (1)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: e68f99d77ecd6454e972cbf1ade46e7e, type: 3}
 --- !u!1 &2129347345
 GameObject:
   m_ObjectHideFlags: 0

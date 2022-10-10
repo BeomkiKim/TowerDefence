@@ -37,12 +37,12 @@ public class NodeUI : MonoBehaviour
         if (target.totalUpgradeCount == 2 && player.currentMoney < 150)
             return;
 
-        if (target.totalUpgradeCount == 0 && player.redCount>1)
-            player.currentMoney -= 50f;
-        else if (target.totalUpgradeCount == 1 && player.redCount > 1)
-            player.currentMoney -= 100f;
-        else if (target.totalUpgradeCount == 2 && player.redCount > 1)
-            player.currentMoney -= 150f;
+        //if (target.totalUpgradeCount == 0 && player.redCount>1)
+        //    player.currentMoney -= 50f;
+        //else if (target.totalUpgradeCount == 1 && player.redCount > 1)
+        //    player.currentMoney -= 100f;
+        //else if (target.totalUpgradeCount == 2 && player.redCount > 1)
+        //    player.currentMoney -= 150f;
 
         target.UpgradeTurret(0);
         BuildManager.instance.DeselectNode();
@@ -59,12 +59,12 @@ public class NodeUI : MonoBehaviour
         if (target.totalUpgradeCount == 2 && player.currentMoney < 150)
             return;
 
-        if (target.totalUpgradeCount == 0 && player.blueCount > 1) 
-            player.currentMoney -= 50f;
-        else if (target.totalUpgradeCount == 1 && player.blueCount > 1)
-            player.currentMoney -= 100f;
-        else if (target.totalUpgradeCount == 2 && player.blueCount > 1)
-            player.currentMoney -= 150f;
+        //if (target.totalUpgradeCount == 0 && player.blueCount > 1) 
+        //    player.currentMoney -= 50f;
+        //else if (target.totalUpgradeCount == 1 && player.blueCount > 1)
+        //    player.currentMoney -= 100f;
+        //else if (target.totalUpgradeCount == 2 && player.blueCount > 1)
+        //    player.currentMoney -= 150f;
 
         target.UpgradeTurret(1);
         BuildManager.instance.DeselectNode();
@@ -81,12 +81,12 @@ public class NodeUI : MonoBehaviour
         if (target.totalUpgradeCount == 2 && player.currentMoney < 150)
             return;
 
-        if (target.totalUpgradeCount == 0 && player.yellowCount > 1)
-            player.currentMoney -= 50f;
-        else if (target.totalUpgradeCount == 1 && player.yellowCount > 1)
-            player.currentMoney -= 100f;
-        else if (target.totalUpgradeCount == 2 && player.yellowCount > 1 )
-            player.currentMoney -= 150f;
+        //if (target.totalUpgradeCount == 0 && player.yellowCount > 1)
+        //    player.currentMoney -= 50f;
+        //else if (target.totalUpgradeCount == 1 && player.yellowCount > 1)
+        //    player.currentMoney -= 100f;
+        //else if (target.totalUpgradeCount == 2 && player.yellowCount > 1 )
+        //    player.currentMoney -= 150f;
 
         target.UpgradeTurret(2);
         BuildManager.instance.DeselectNode();

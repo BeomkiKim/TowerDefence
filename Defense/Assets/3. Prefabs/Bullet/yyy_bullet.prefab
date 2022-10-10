@@ -47,7 +47,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  bulletPower: 11
+  bulletPower: 60
   speed: 70
   explosionRadius: 0
   impactEffect: {fileID: 1949398963624892, guid: 245ac5f5a8c608d469028f3effd1b360, type: 3}

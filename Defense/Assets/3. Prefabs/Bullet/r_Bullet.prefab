@@ -45,13 +45,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 936b75d8901842642ba9a3a4648a3bee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPower: 10
+  target: {fileID: 0}
+  bulletPower: 45
   speed: 70
   explosionRadius: 5
   impactEffect: {fileID: 1949398963624892, guid: 6962069cf3f48ef42bcacf5514c7562d, type: 3}
   iceBullet: 0
   slowPercent: 0
   slowTime: 0
+  poisionBullet: 0
+  poisionPercent: 0
 --- !u!1 &1885369968819836
 GameObject:
   m_ObjectHideFlags: 0

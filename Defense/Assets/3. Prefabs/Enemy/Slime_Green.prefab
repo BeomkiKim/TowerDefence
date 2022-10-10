@@ -611,11 +611,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hp: 0
-  maxHp: 70
-  gold: 25
+  maxHp: 200
+  gold: 40
   startSpeed: 10
   speed: 10
   healthBar: {fileID: 639977634853057494}
+  isKotlin: 0
+  poiDmg: 0
   percentage: 460000000a0000000a0000000a000000
   total: 0
   dropItemPrefab:
@@ -623,6 +625,7 @@ MonoBehaviour:
   - {fileID: 1238260032330606, guid: 63f20d6cb1156bc44a0d3da6e4e23486, type: 3}
   - {fileID: 1440041658193322, guid: 2a01cd6b4d3a34a469e5d5836c4eef1b, type: 3}
   - {fileID: 1412290364867976, guid: 0617407bb41ab4b5ab29067dcffb6b9e, type: 3}
+  poisionTime: 0
 --- !u!65 &8779925383834405474
 BoxCollider:
   m_ObjectHideFlags: 0

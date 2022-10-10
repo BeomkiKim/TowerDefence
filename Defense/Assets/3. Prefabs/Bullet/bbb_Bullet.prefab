@@ -128,10 +128,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 936b75d8901842642ba9a3a4648a3bee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPower: 15
+  target: {fileID: 0}
+  bulletPower: 60
   speed: 70
   explosionRadius: 0
   impactEffect: {fileID: 1949398963624892, guid: 06da7b971ed279940ad6ebe211493091, type: 3}
   iceBullet: 1
   slowPercent: 1
   slowTime: 1.5
+  poisionBullet: 0
+  poisionPercent: 0

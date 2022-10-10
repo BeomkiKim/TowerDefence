@@ -8,7 +8,7 @@ public class WaveSpawner : MonoBehaviour
     public Transform[] enemyPrefab;
     public Transform spawnPoint;
     public float timeBetweenWaves = 15f;
-    float countdown = 2f;
+    public float countdown = 2f;
 
     public Text waveCountdownText;
 
@@ -18,6 +18,7 @@ public class WaveSpawner : MonoBehaviour
         if (countdown <= 0f)
         {
             stage++;
+
             StartCoroutine(SpawnWave());
             countdown = timeBetweenWaves;
 
@@ -56,19 +57,29 @@ public class WaveSpawner : MonoBehaviour
             case 0:
                 break;
             case 1:
+                Instantiate(enemyPrefab[1], spawnPoint.position, spawnPoint.rotation);
+                break;
             case 2:
                 Instantiate(enemyPrefab[1], spawnPoint.position, spawnPoint.rotation);
                 break;
             case 3:
+                Instantiate(enemyPrefab[2], spawnPoint.position, spawnPoint.rotation);
+                break;
             case 4:
                 Instantiate(enemyPrefab[2], spawnPoint.position, spawnPoint.rotation);
                 break;
             case 5:
+                Instantiate(enemyPrefab[3], spawnPoint.position, spawnPoint.rotation);
+                break;
             case 6:
                 Instantiate(enemyPrefab[3], spawnPoint.position, spawnPoint.rotation);
                 break;
             case 7:
+                Instantiate(enemyPrefab[4], spawnPoint.position, spawnPoint.rotation);
+                break;
             case 8:
+                Instantiate(enemyPrefab[4], spawnPoint.position, spawnPoint.rotation);
+                break;
             case 9:
                 Instantiate(enemyPrefab[4], spawnPoint.position, spawnPoint.rotation);
                 break;
