@@ -914,6 +914,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &43226971
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1075,6 +1076,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &58507832
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1685,6 +1687,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &101554506
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1841,6 +1844,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &101595851
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1997,6 +2001,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &105463233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2153,6 +2158,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &107891889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2394,6 +2400,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &128393578
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2752,6 +2759,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &163759641
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2986,6 +2994,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &164371762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4090,6 +4099,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &234021225
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4396,6 +4406,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &237348287
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4624,6 +4635,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &278622242
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4920,6 +4932,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &301617966
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5286,6 +5299,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &324396824
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5846,6 +5860,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &337699578
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6007,6 +6022,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &349880649
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6288,6 +6304,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &361216123
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6685,6 +6702,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &379663023
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7137,6 +7155,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &415069449
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7448,6 +7467,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &426115358
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7881,6 +7901,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &457323532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8109,6 +8130,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &473343830
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8270,6 +8292,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &478316189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8426,6 +8449,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &495564530
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8735,6 +8759,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &501347321
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9349,6 +9374,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &540141522
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9505,6 +9531,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &542099440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9827,6 +9854,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &561028168
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9993,6 +10021,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &567692610
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10361,6 +10390,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &570545548
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10517,6 +10547,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &572664028
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10746,6 +10777,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &580958322
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11124,6 +11156,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &596408826
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11982,6 +12015,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &634236279
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12279,6 +12313,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &669401109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12497,6 +12532,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &685335982
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12653,6 +12689,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &689125050
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12809,6 +12846,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &691184454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13043,6 +13081,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &697441074
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13508,6 +13547,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &708345746
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13664,6 +13704,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &713189148
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13820,6 +13861,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &729657978
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13976,6 +14018,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &732540237
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14132,6 +14175,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &734000136
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14293,6 +14337,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &746821141
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14588,6 +14633,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &751524281
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14897,6 +14943,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &761617148
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15209,6 +15256,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &775737136
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15538,6 +15586,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &789296000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15694,6 +15743,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &793533665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15850,6 +15900,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &794355414
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16079,6 +16130,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &802992555
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16245,6 +16297,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &813908664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16401,6 +16454,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &818671532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16635,6 +16689,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &823500641
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16791,6 +16846,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &823969919
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17295,6 +17351,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &867162704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17662,6 +17719,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &885001674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17888,6 +17946,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &891767714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18199,6 +18258,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &896519676
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18425,6 +18485,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &896601645
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18586,6 +18647,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &902319985
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18882,6 +18944,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &917294871
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19264,6 +19327,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &947297012
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19420,6 +19484,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &948003032
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19651,6 +19716,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &953798879
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19885,6 +19951,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &962947383
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20218,6 +20285,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &968280219
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20444,6 +20512,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &977624881
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20688,6 +20757,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &993992764
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20914,6 +20984,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &995886135
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21080,6 +21151,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1002842721
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21256,6 +21328,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1015705427
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21412,6 +21485,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1016240793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22047,6 +22121,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1075657338
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22509,6 +22584,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1102413626
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22740,6 +22816,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1107692932
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22901,6 +22978,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1113666428
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23132,6 +23210,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1141339786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23428,6 +23507,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1150875943
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23657,6 +23737,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1165910230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23888,6 +23969,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1184696935
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24268,6 +24350,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1211884113
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24424,6 +24507,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1218413738
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24585,6 +24669,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1220441571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24901,6 +24986,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1237409036
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25057,6 +25143,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1238956690
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25213,6 +25300,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1243001087
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25374,6 +25462,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1247980836
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25530,6 +25619,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1251241727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25836,6 +25926,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1259169713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25997,6 +26088,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1265713237
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26822,6 +26914,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1309908081
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27061,6 +27154,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1316716315
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27441,6 +27535,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1357989190
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27670,6 +27765,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1365690697
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28162,6 +28258,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1404730603
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28461,6 +28558,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1415852467
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28705,6 +28803,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1429767893
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28941,6 +29040,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1436299552
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29097,6 +29197,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1439296135
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29461,6 +29562,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1456509751
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29617,6 +29719,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1456741642
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29839,6 +29942,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1467140346
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30073,6 +30177,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1469805067
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30229,6 +30334,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1470005390
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30385,6 +30491,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1473428855
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30691,6 +30798,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1487537956
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30987,6 +31095,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1493675229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31296,6 +31405,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1501972184
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31452,6 +31562,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1503357692
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31608,6 +31719,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1508516392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31769,6 +31881,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1527773276
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32179,6 +32292,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1535710878
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32335,6 +32449,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1536046451
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32496,6 +32611,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1537021493
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32652,6 +32768,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1540898771
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33030,6 +33147,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1554415378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33326,6 +33444,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1565135399
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33552,6 +33671,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1571771378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33844,6 +33964,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1584808991
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34000,6 +34121,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1585616302
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34234,6 +34356,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1589327954
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34390,6 +34513,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1589653814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34891,6 +35015,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1629176463
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35117,6 +35242,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1631279678
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35556,6 +35682,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1636022467
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35935,6 +36062,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1647247943
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36091,6 +36219,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1651270049
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36327,6 +36456,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1655989195
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36983,6 +37113,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1680388884
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37217,6 +37348,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1687915525
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37598,6 +37730,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1710549105
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37707,137 +37840,89 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 877035072, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+    - target: {fileID: 13841053, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
-    - target: {fileID: 877035072, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
+    - target: {fileID: 729390200, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
-    - target: {fileID: 877035072, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1722375923}
-    - target: {fileID: 877035072, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
+    - target: {fileID: 1100030889, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
-    - target: {fileID: 877035072, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: YellowUpgrade
+    - target: {fileID: 1100030890, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
       objectReference: {fileID: 0}
-    - target: {fileID: 877035072, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: NodeUI, Assembly-CSharp
+    - target: {fileID: 1100030890, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
       objectReference: {fileID: 0}
-    - target: {fileID: 877035072, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 1066951202, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1066951202, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1066951202, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1722375923}
-    - target: {fileID: 1066951202, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1066951202, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: BlueUpgrade
-      objectReference: {fileID: 0}
-    - target: {fileID: 1066951202, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: NodeUI, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 1066951202, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 1780586367, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1780586367, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1780586367, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1722375923}
-    - target: {fileID: 1780586367, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1780586367, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: RedUpgrade
-      objectReference: {fileID: 0}
-    - target: {fileID: 1780586367, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: NodeUI, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 1780586367, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 864821084156923429, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
-      propertyPath: m_RaycastTarget
+    - target: {fileID: 1100030890, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
+      propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5222220158307002372, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 7287178207756353680, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 8aae22fcc0942cd45897afcc94f82e50, type: 3}
-    - target: {fileID: 7287178207756353680, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
-      propertyPath: m_RaycastTarget
+    - target: {fileID: 1100030890, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
+      propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8289920421604994459, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
-      propertyPath: m_RaycastTarget
+    - target: {fileID: 1100030890, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1217905989, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1217905990, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1217905990, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1217905990, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
+      propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8381761401440546185, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+    - target: {fileID: 1217905990, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8381761401440546185, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
+    - target: {fileID: 1217905990, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90
       objectReference: {fileID: 0}
-    - target: {fileID: 8381761401440546185, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1722375923}
-    - target: {fileID: 8381761401440546185, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
+    - target: {fileID: 1731127388, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
-    - target: {fileID: 8381761401440546185, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Sell
+    - target: {fileID: 1731127389, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
       objectReference: {fileID: 0}
-    - target: {fileID: 8381761401440546185, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: NodeUI, Assembly-CSharp
+    - target: {fileID: 1731127389, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
       objectReference: {fileID: 0}
-    - target: {fileID: 8381761401440546185, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
+    - target: {fileID: 1731127389, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1731127389, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1731127389, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1971400970, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 8381761401824289422, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
       propertyPath: m_Name
@@ -37886,14 +37971,6 @@ PrefabInstance:
     - target: {fileID: 8381761401824289423, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8381761403182932876, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.24
-      objectReference: {fileID: 0}
-    - target: {fileID: 8381761403182932876, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 4.44
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e219c851bba95d449ce71d9e5c7fc9a, type: 3}
@@ -38029,6 +38106,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1724002820
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38185,6 +38263,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1725179573
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38538,6 +38617,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1733388912
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38777,6 +38857,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1741883417
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39081,6 +39162,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1751872111
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39334,6 +39416,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1753042446
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39560,6 +39643,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1763514816
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39716,6 +39800,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1764395143
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40007,6 +40092,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1776821811
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40168,6 +40254,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1783391187
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40324,6 +40411,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1783890177
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40555,6 +40643,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1801540866
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40711,6 +40800,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1809608264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40867,6 +40957,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1820455563
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41181,6 +41272,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1833056507
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41347,6 +41439,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1858524400
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41861,6 +41954,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1882846420
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42017,6 +42111,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1885048444
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42235,6 +42330,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1890804847
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42391,6 +42487,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1896348976
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42547,6 +42644,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1899317647
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42703,6 +42801,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1910004989
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43340,6 +43439,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1935102416
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43803,6 +43903,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1949136262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44067,6 +44168,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1951598736
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44295,6 +44397,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1963473514
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44820,6 +44923,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &1995384128
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45048,6 +45152,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &2008175611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45417,6 +45522,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &2025001910
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45583,6 +45689,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &2034808929
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45819,6 +45926,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &2053409854
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46045,6 +46153,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &2063454513
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46211,6 +46320,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &2069077148
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46367,6 +46477,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &2074920755
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46681,6 +46792,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &2099947540
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46837,6 +46949,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &2103732995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47033,6 +47146,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &2117616577
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47246,6 +47360,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &2123339974
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47402,6 +47517,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &2129347351
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47783,6 +47899,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &2142037047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48022,6 +48139,7 @@ MonoBehaviour:
   yellowUpgradeCount: 0
   totalUpgradeCount: 0
   totalTurretCost: 100
+  turretNumber: 0
 --- !u!114 &2144453367
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48159,6 +48277,22 @@ PrefabInstance:
       propertyPath: positionOffet.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 1378321483879999895, guid: a13b5dbb024620d458c94081629cf09e, type: 3}
+      propertyPath: rangeSprite.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1378321483879999895, guid: a13b5dbb024620d458c94081629cf09e, type: 3}
+      propertyPath: rangeSprite.Array.data[0]
+      value: 
+      objectReference: {fileID: 5758270088521020137, guid: e9fcc231d90346e459bc513c6cc5811e, type: 3}
+    - target: {fileID: 1378321483879999895, guid: a13b5dbb024620d458c94081629cf09e, type: 3}
+      propertyPath: rangeSprite.Array.data[1]
+      value: 
+      objectReference: {fileID: 8375662420658814520, guid: 63c1daaf57f13e9458c383f2471739fd, type: 3}
+    - target: {fileID: 1378321483879999895, guid: a13b5dbb024620d458c94081629cf09e, type: 3}
+      propertyPath: rangeSprite.Array.data[2]
+      value: 
+      objectReference: {fileID: 3420713218489194408, guid: 65211de7b90c8f8439b6060efe110700, type: 3}
     - target: {fileID: 2630186387474783944, guid: a13b5dbb024620d458c94081629cf09e, type: 3}
       propertyPath: m_Mesh
       value: 

@@ -125,7 +125,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1834244982881623905
 RectTransform:
   m_ObjectHideFlags: 0
@@ -325,6 +325,7 @@ MonoBehaviour:
   slowPct: 0.5
   lineRenderer: {fileID: 0}
   isAnim: 0
+  rangeSprite: {fileID: 0}
 --- !u!1 &2720497517759192423
 GameObject:
   m_ObjectHideFlags: 0

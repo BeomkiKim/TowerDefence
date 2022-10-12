@@ -25,6 +25,8 @@ public class Node : MonoBehaviour
     bool isNode;
     bool isUi;
 
+    public int turretNumber;
+
 
     private void Start()
     {
@@ -49,6 +51,7 @@ public class Node : MonoBehaviour
 
 
         isUi = EventSystem.current.IsPointerOverGameObject();
+
         if (turret != null && !isUi && isNode)
         {
             buildManager.SelectNode(this);
@@ -60,12 +63,15 @@ public class Node : MonoBehaviour
         {
             buildManager.SelectTurretToBuild();
             player.SendMessage("Set");
+            turretNumber = 15;
             GameObject turretToBuild = BuildManager.instance.GetTurretToBuild();
             turret = (GameObject)Instantiate(turretToBuild, GetBuildPosition(), Quaternion.identity);
             
         }
+
         //Debug.Log(hit.collider.gameObject);
     }
+
     private void OnMouseEnter()
     {
         rend.material.color = hoverColor;
@@ -96,6 +102,7 @@ public class Node : MonoBehaviour
                             redUpgradeCount++;
                             totalUpgradeCount++;
                             totalTurretCost += 150;
+                            turretNumber = 19;
                             return;
                         case 1:// redblue
                             Destroy(turret);
@@ -106,6 +113,7 @@ public class Node : MonoBehaviour
                             blueUpgradeCount++;
                             totalUpgradeCount++;
                             totalTurretCost += 150;
+                            turretNumber = 17;
                             return;
                         case 2://redyellow
                             Destroy(turret);
@@ -116,6 +124,7 @@ public class Node : MonoBehaviour
                             yellowUpgradeCount++;
                             totalUpgradeCount++;
                             totalTurretCost += 150;
+                            turretNumber = 17;
                             return;
 
                     }
@@ -134,6 +143,7 @@ public class Node : MonoBehaviour
                             redUpgradeCount++;
                             totalUpgradeCount++;
                             totalTurretCost += 150;
+                            turretNumber = 17;
                             return;
                         case 1:// blueblue
                             Destroy(turret);
@@ -144,6 +154,7 @@ public class Node : MonoBehaviour
                             blueUpgradeCount++;
                             totalUpgradeCount++;
                             totalTurretCost += 150;
+                            turretNumber = 15;
                             return;
                         case 2://blueyellow
                             Destroy(turret);
@@ -154,6 +165,7 @@ public class Node : MonoBehaviour
                             yellowUpgradeCount++;
                             totalUpgradeCount++;
                             totalTurretCost += 150;
+                            turretNumber = 15;
                             return;
 
                     }
@@ -171,6 +183,7 @@ public class Node : MonoBehaviour
                             redUpgradeCount++;
                             totalUpgradeCount++;
                             totalTurretCost += 150;
+                            turretNumber = 17;
                             return;
                         case 1:// yeloowblue
                             Destroy(turret);
@@ -181,6 +194,7 @@ public class Node : MonoBehaviour
                             blueUpgradeCount++;
                             totalUpgradeCount++;
                             totalTurretCost += 150;
+                            turretNumber = 15;
                             return;
                         case 2://yellowyellow
                             Destroy(turret);
@@ -191,6 +205,7 @@ public class Node : MonoBehaviour
                             yellowUpgradeCount++;
                             totalUpgradeCount++;
                             totalTurretCost += 150;
+                            turretNumber = 15;
                             return;
 
                     }
@@ -218,6 +233,7 @@ public class Node : MonoBehaviour
                                         redUpgradeCount++;
                                         totalUpgradeCount++;
                                         totalTurretCost += 200;
+                                        turretNumber = 17;
                                         return;
                                     case 1: //³ë¶û2°³ ÆÄ¶û1°³
                                         Destroy(turret);
@@ -228,6 +244,7 @@ public class Node : MonoBehaviour
                                         blueUpgradeCount++;
                                         totalUpgradeCount++;
                                         totalTurretCost += 200;
+                                        turretNumber = 15;
                                         return;
                                     case 2: // ³ë¶û3°³
                                         Destroy(turret);
@@ -238,6 +255,7 @@ public class Node : MonoBehaviour
                                         yellowUpgradeCount++;
                                         totalUpgradeCount++;
                                         totalTurretCost += 200;
+                                        turretNumber = 15;
                                         return;
                                 }
                                 return;
@@ -253,6 +271,7 @@ public class Node : MonoBehaviour
                                         redUpgradeCount++;
                                         totalUpgradeCount++;
                                         totalTurretCost += 200;
+                                        turretNumber = 15;
                                         return;
                                     case 1: //ÆÄ¶û 2 ³ë¶û1
                                         Destroy(turret);
@@ -263,6 +282,7 @@ public class Node : MonoBehaviour
                                         yellowUpgradeCount++;
                                         totalUpgradeCount++;
                                         totalTurretCost += 200;
+                                        turretNumber = 15;
                                         return;
                                     case 2: //ÆÄ¶û1 ³ë¶û 2
                                         Destroy(turret);
@@ -273,6 +293,7 @@ public class Node : MonoBehaviour
                                         yellowUpgradeCount++;
                                         totalUpgradeCount++;
                                         totalTurretCost += 200;
+                                        turretNumber = 15;
                                         return;
                                 }
                                 return;
@@ -288,6 +309,7 @@ public class Node : MonoBehaviour
                                         redUpgradeCount++;
                                         totalUpgradeCount++;
                                         totalTurretCost += 200;
+                                        turretNumber = 17;
                                         return;
                                     case 1: //ÆÄ¶û3
                                         Destroy(turret);
@@ -298,6 +320,7 @@ public class Node : MonoBehaviour
                                         blueUpgradeCount++;
                                         totalUpgradeCount++;
                                         totalTurretCost += 200;
+                                        turretNumber = 15;
                                         return;
                                     case 2: //ÆÄ¶û2 ³ë¶û 1
                                         Destroy(turret);
@@ -308,6 +331,7 @@ public class Node : MonoBehaviour
                                         yellowUpgradeCount++;
                                         totalUpgradeCount++;
                                         totalTurretCost += 200;
+                                        turretNumber = 15;
                                         return;
 
                                 }
@@ -330,6 +354,7 @@ public class Node : MonoBehaviour
                                         redUpgradeCount++;
                                         totalUpgradeCount++;
                                         totalTurretCost += 200;
+                                        turretNumber = 15;
                                         return;
                                     case 1: //»¡°­1 ³ë¶û1 ÆÄ¶û 1
                                         Destroy(turret);
@@ -340,6 +365,7 @@ public class Node : MonoBehaviour
                                         blueUpgradeCount++;
                                         totalUpgradeCount++;
                                         totalTurretCost += 200;
+                                        turretNumber = 15;
                                         return;
                                     case 2: //»¡°­ 1 ³ë¶û2
                                         Destroy(turret);
@@ -350,6 +376,7 @@ public class Node : MonoBehaviour
                                         yellowUpgradeCount++;
                                         totalUpgradeCount++;
                                         totalTurretCost += 200;
+                                        turretNumber = 17;
                                         return;
 
                                 }
@@ -366,6 +393,7 @@ public class Node : MonoBehaviour
                                         redUpgradeCount++;
                                         totalUpgradeCount++;
                                         totalTurretCost += 200;
+                                        turretNumber = 15;
                                         return;
                                     case 1://»¡1 ÆÄ2
                                         Destroy(turret);
@@ -376,6 +404,7 @@ public class Node : MonoBehaviour
                                         blueUpgradeCount++;
                                         totalUpgradeCount++;
                                         totalTurretCost += 200;
+                                        turretNumber = 17;
                                         return;
                                     case 2://»¡1 ÆÄ1 ³ë1
                                         Destroy(turret);
@@ -386,6 +415,7 @@ public class Node : MonoBehaviour
                                         yellowUpgradeCount++;
                                         totalUpgradeCount++;
                                         totalTurretCost += 200;
+                                        turretNumber = 15;
                                         return;
 
                                 }
@@ -405,6 +435,7 @@ public class Node : MonoBehaviour
                                 redUpgradeCount++;
                                 totalUpgradeCount++;
                                 totalTurretCost += 200;
+                                turretNumber = 15;
                                 return;
                             case 1://»¡°­2 ÆÄ¶û 1
                                 Destroy(turret);
@@ -415,6 +446,7 @@ public class Node : MonoBehaviour
                                 blueUpgradeCount++;
                                 totalUpgradeCount++;
                                 totalTurretCost += 200;
+                                turretNumber = 15;
                                 return;
                             case 2://»¡°­2 ³ë¶û 1
                                 Destroy(turret);
@@ -425,6 +457,7 @@ public class Node : MonoBehaviour
                                 yellowUpgradeCount++;
                                 totalUpgradeCount++;
                                 totalTurretCost += 200;
+                                turretNumber = 15;
                                 return;
 
                         }
@@ -452,6 +485,7 @@ public class Node : MonoBehaviour
                         redUpgradeCount++;
                         totalUpgradeCount++;
                         totalTurretCost += 100;
+                        turretNumber = 17;
                         return;
                     case 1:
                         Destroy(turret);
@@ -462,6 +496,7 @@ public class Node : MonoBehaviour
                         blueUpgradeCount++;
                         totalUpgradeCount++;
                         totalTurretCost += 100;
+                        turretNumber = 15;
                         return;
                     case 2:
                         Destroy(turret);
@@ -472,6 +507,7 @@ public class Node : MonoBehaviour
                         yellowUpgradeCount++;
                         totalUpgradeCount++;
                         totalTurretCost += 100;
+                        turretNumber = 15;
                         return;
                 }
             }

@@ -711,7 +711,7 @@ GameObject:
   - component: {fileID: 405572936029814822}
   - component: {fileID: 404841794481642329}
   - component: {fileID: 1476723715350594108}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: HealthBG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -789,7 +789,7 @@ GameObject:
   - component: {fileID: 7962306942586267920}
   - component: {fileID: 2277149616824628123}
   - component: {fileID: 7714550839054700741}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -889,7 +889,7 @@ GameObject:
   - component: {fileID: 6385836306664270468}
   - component: {fileID: 4493321528648926302}
   - component: {fileID: 639977634853057494}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: HealthBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}

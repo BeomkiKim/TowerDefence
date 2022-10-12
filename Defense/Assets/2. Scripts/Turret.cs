@@ -7,7 +7,7 @@ public class Turret : MonoBehaviour
 
     Enemy targetEnemy;
 
-    [Header("Å¸¿ö¼³Á¤")]
+    [Header("íƒ€ì›Œì„¤ì •")]
     public float range = 15f;
     public float fireRate = 1f;
     float fireCountdown = 0f;
@@ -21,7 +21,7 @@ public class Turret : MonoBehaviour
     public GameObject bulletPrefab;
     public Transform firePoint;
 
-    [Header("¾ÆÀÌ½º")]
+    [Header("ì•„ì´ìŠ¤")]
     public bool useLaser = false;
     public GameObject iceEffect;
     public Transform secondFirePoint;
@@ -33,6 +33,7 @@ public class Turret : MonoBehaviour
 
     public bool isAnim;
     Animator anim;
+
     private void Start()
     {
         anim = GetComponent<Animator>();
@@ -114,7 +115,6 @@ public class Turret : MonoBehaviour
         partToRotate.rotation = Quaternion.Euler(0f, rotation.y, 0f);
     }
 
-
     void Laser()
     {
         targetEnemy.TakeDamage(damagerOverTime * Time.deltaTime);
@@ -135,7 +135,7 @@ public class Turret : MonoBehaviour
         Bullet bullet = bulletGo.GetComponent<Bullet>();
 
         if (bullet != null)
-            bullet.Seek(target);//seekÇÔ¼ö : Ã£±â
+            bullet.Seek(target);//seekí•¨ìˆ˜ : ì°¾ê¸°
     }
     void RbShoot()
     {

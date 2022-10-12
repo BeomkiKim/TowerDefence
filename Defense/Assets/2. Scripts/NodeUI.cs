@@ -5,6 +5,8 @@ using UnityEngine;
 public class NodeUI : MonoBehaviour
 {
     public GameObject ui;
+    public GameObject[] rangeUI;
+    int uiNum;
     Node target;
     PlayerState player;
 
@@ -18,11 +20,39 @@ public class NodeUI : MonoBehaviour
 
         transform.position = target.GetBuildPosition();
         ui.SetActive(true);
+
+        switch(target.turretNumber)
+        {
+            case 15:
+                rangeUI[0].SetActive(true);
+                uiNum = 0;
+                break;
+            case 17:
+                rangeUI[1].SetActive(true);
+                uiNum = 1;
+                break;
+            case 19:
+                rangeUI[2].SetActive(true);
+                uiNum = 2;
+                break;
+        }
     }
 
     public void Hide()
     {
         ui.SetActive(false);
+        switch (uiNum)
+        {
+            case 0:
+                rangeUI[0].SetActive(false);
+                break;
+            case 1:
+                rangeUI[1].SetActive(false);
+                break;
+            case 2:
+                rangeUI[2].SetActive(false);
+                break;
+        }
     }
 
     public void RedUpgrade()
