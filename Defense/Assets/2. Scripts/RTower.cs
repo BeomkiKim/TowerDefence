@@ -19,6 +19,10 @@ public class RTower : MonoBehaviour
     public float fireRate = 1f;
 
     public float poisionPercent;
+
+    [Header("Sound")]
+    public AudioSource audioSource;
+    public AudioClip shootSound;
     private void Start()
     {
         anim = GetComponent<Animator>();
@@ -46,6 +50,7 @@ public class RTower : MonoBehaviour
     }
     void Attack()
     {
+        PlayShootSound();
         if (ice && !poision)
         {
             foreach (Collider collider in colliders)
@@ -54,6 +59,7 @@ public class RTower : MonoBehaviour
                 {
                     Ice(collider.transform);
                     Damage(collider.transform);
+                    
                 }
             }
         }
@@ -86,8 +92,11 @@ public class RTower : MonoBehaviour
             {
                 if (collider.tag == "Enemy")
                 {
-
+                    if (collider == null)
+                        return;
                     Damage(collider.transform);
+
+
                 }
             }
 
@@ -96,6 +105,7 @@ public class RTower : MonoBehaviour
 
     void Damage(Transform enemy)
     {
+        
         enemy.SendMessage("Damage", rTowerPower);
     }
     void Ice(Transform enemy)
@@ -116,5 +126,10 @@ public class RTower : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, explosionRadius);
 
+    }
+
+    public void PlayShootSound()
+    {
+        audioSource.PlayOneShot(shootSound);
     }
 }

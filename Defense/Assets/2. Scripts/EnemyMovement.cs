@@ -6,7 +6,7 @@ using UnityEngine;
 public class EnemyMovement : MonoBehaviour
 {
     Transform target;
-    int wavepointIndex = 0;
+    public int wavepointIndex = 0;
     PlayerState player;
 
     Enemy enemy;
@@ -20,7 +20,7 @@ public class EnemyMovement : MonoBehaviour
         enemy = GetComponent<Enemy>();
 
         player = GameObject.Find("GameManager").GetComponent<PlayerState>();
-        target = WayPoints.points[0];
+        target = WayPoints.points[wavepointIndex];
     }
 
     private void Update()

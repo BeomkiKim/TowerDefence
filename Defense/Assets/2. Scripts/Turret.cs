@@ -31,8 +31,14 @@ public class Turret : MonoBehaviour
 
     public LineRenderer lineRenderer;
 
-    public bool isAnim;
+    bool isAnim;
     Animator anim;
+
+    [Header("Sound")]
+    public AudioSource audioSource;
+    public AudioClip shootSound;
+
+    public bool soundStart;
 
     private void Start()
     {
@@ -119,7 +125,11 @@ public class Turret : MonoBehaviour
     {
         targetEnemy.TakeDamage(damagerOverTime * Time.deltaTime);
         targetEnemy.Slow(slowPct);
-        GameObject effectIns = (GameObject)Instantiate(iceEffect, firePoint.position, firePoint.rotation);
+        if (!soundStart)
+        {
+            StartCoroutine(LaserSound());
+        }
+            GameObject effectIns = (GameObject)Instantiate(iceEffect, firePoint.position, firePoint.rotation);
         GameObject secondEffectIns = (GameObject)Instantiate(iceEffect, secondFirePoint.position, secondFirePoint.rotation);
         Destroy(effectIns, 0.5f);
         Destroy(secondEffectIns, 0.5f);
@@ -133,6 +143,7 @@ public class Turret : MonoBehaviour
     {
         GameObject bulletGo = (GameObject)Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         Bullet bullet = bulletGo.GetComponent<Bullet>();
+        PlayShootSound();
 
         if (bullet != null)
             bullet.Seek(target);//seek함수 : 찾기
@@ -151,5 +162,17 @@ public class Turret : MonoBehaviour
 
     }
 
+    public void PlayShootSound()
+    {
+        audioSource.PlayOneShot(shootSound);
+    }
+
+    IEnumerator LaserSound()
+    {
+        soundStart = true;
+        PlayShootSound();
+        yield return new WaitForSeconds(1.8f);
+        soundStart = false;
+    }
 
 }

@@ -25,23 +25,25 @@ public class ItemCtrl : MonoBehaviour
 
     private void OnMouseDown()
     {
+        
         if (kind == ItemKind.Blue)
         {
             player.blueCount++;
+            player.SendMessage("GetItem");
             Destroy(gameObject);
         }
         else if (kind == ItemKind.Red)
         {
             player.redCount++;
+            player.SendMessage("GetItem");
             Destroy(gameObject);
         }
         else if (kind == ItemKind.Yellow)
         {
             player.yellowCount++;
+            player.SendMessage("GetItem");
             Destroy(gameObject);
         }
-
-
 
     }
 
