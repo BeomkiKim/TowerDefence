@@ -5,6 +5,7 @@ using UnityEngine;
 public class ItemCtrl : MonoBehaviour
 {
     PlayerState player;
+    SoundManager sound;
     public enum ItemKind
     {
         Empty,
@@ -21,6 +22,7 @@ public class ItemCtrl : MonoBehaviour
             Destroy(gameObject);
 
         player = GameObject.Find("GameManager").GetComponent<PlayerState>();
+        sound = GameObject.Find("GameManager").GetComponent<SoundManager>();
     }
 
     private void OnMouseDown()
@@ -29,19 +31,19 @@ public class ItemCtrl : MonoBehaviour
         if (kind == ItemKind.Blue)
         {
             player.blueCount++;
-            player.SendMessage("GetItem");
+            sound.SendMessage("GetItem");
             Destroy(gameObject);
         }
         else if (kind == ItemKind.Red)
         {
             player.redCount++;
-            player.SendMessage("GetItem");
+            sound.SendMessage("GetItem");
             Destroy(gameObject);
         }
         else if (kind == ItemKind.Yellow)
         {
             player.yellowCount++;
-            player.SendMessage("GetItem");
+            sound.SendMessage("GetItem");
             Destroy(gameObject);
         }
 

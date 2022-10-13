@@ -651,6 +651,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2057dc8d2d13884f8059f8f78cf8722, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wavepointIndex: 0
   iceTime: 0
 --- !u!54 &3184702934662001894
 Rigidbody:

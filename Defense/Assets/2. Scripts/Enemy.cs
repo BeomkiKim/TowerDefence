@@ -13,6 +13,7 @@ public class Enemy : MonoBehaviour
     public float speed;
     EnemyMovement enemyMove;
     WaveSpawner wave;
+    SoundManager sound;
 
     PlayerState player;
 
@@ -20,6 +21,7 @@ public class Enemy : MonoBehaviour
 
     public bool isKotlin;
     public float poiDmg;
+
 
 
     public int[] percentage =
@@ -42,6 +44,7 @@ public class Enemy : MonoBehaviour
         
         player = GameObject.Find("GameManager").GetComponent<PlayerState>();
         wave = GameObject.Find("GameManager").GetComponent<WaveSpawner>();
+        sound = GameObject.Find("GameManager").GetComponent<SoundManager>();
         enemyMove = GetComponent<EnemyMovement>();
         speed = startSpeed;
         
@@ -160,6 +163,7 @@ public class Enemy : MonoBehaviour
             {
                 GameObject dropItem = dropItemPrefab[i];
                 Instantiate(dropItem, transform.position+new Vector3(0,3f,0), dropItem.transform.rotation);
+
                 return;
 
             }
@@ -173,6 +177,7 @@ public class Enemy : MonoBehaviour
     void EnemyDie()
     {
         DropItem();
+        sound.SendMessage("EnemyDie");
         Destroy(gameObject);
     }
 
@@ -188,4 +193,6 @@ public class Enemy : MonoBehaviour
         isKotlin = false;
 
     }
+
+
 }

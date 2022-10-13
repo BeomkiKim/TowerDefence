@@ -19,12 +19,12 @@ public class PlayerState : MonoBehaviour
     public Text yellowCountText;
     public Text moneyText;
 
-    [Header("Sound")]
-    public AudioSource audioSource;
-    public AudioClip itemSound;
+    SoundManager sound;
+
 
     private void Start()
     {
+        sound = GetComponent<SoundManager>();
         currentMoney = startMoney;
         currentLife = maxlife;
         redCount = 100;
@@ -56,9 +56,5 @@ public class PlayerState : MonoBehaviour
         currentLife -= 1;
     }
 
-    public void GetItem()
-    {
-        audioSource.volume = 0.2f;
-        audioSource.PlayOneShot(itemSound);
-    }
+
 }

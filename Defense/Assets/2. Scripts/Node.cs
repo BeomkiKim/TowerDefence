@@ -27,12 +27,15 @@ public class Node : MonoBehaviour
 
     public int turretNumber;
 
+    SoundManager sound;
+
 
     private void Start()
     {
         rend = GetComponent<Renderer>();
         player = FindObjectOfType<PlayerState>();
         buildManager = GameObject.Find("GameManager").GetComponent<BuildManager>();
+        sound = GameObject.Find("GameManager").GetComponent<SoundManager>();
         turretBlueprint = GetComponent<TurretBlueprint>();
         startColor = rend.material.color;
     }
@@ -85,6 +88,7 @@ public class Node : MonoBehaviour
 
     public void UpgradeTurret(int GemNumer)
     {
+        sound.SendMessage("UpgradeSound");
         if(totalUpgradeCount == 1) //업그레이드를 이미 1번 한 경우 
         {
             if (player.currentMoney >= 150)

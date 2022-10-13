@@ -14,11 +14,13 @@ public class WaveSpawner : MonoBehaviour
 
     int waveIndex = 10;
 
-    [Header("Sound")]
-    public AudioSource audioSource;
-    public AudioClip spawnSound;
-    public AudioClip bossSpawnSound;
+    SoundManager sound;
 
+
+    private void Start()
+    {
+        sound = GetComponent<SoundManager>();
+    }
     private void Update()
     {
         if (countdown <= 0f)
@@ -47,7 +49,8 @@ public class WaveSpawner : MonoBehaviour
         else if(stage % 10 == 0)
         {
             Instantiate(enemyPrefab[0], spawnPoint.position, spawnPoint.rotation);
-            audioSource.PlayOneShot(bossSpawnSound);
+            sound.SendMessage("BossSound");
+
         }
         if (waveIndex < 30)
         {
@@ -65,7 +68,6 @@ public class WaveSpawner : MonoBehaviour
                 break;
             case 1:
                 Instantiate(enemyPrefab[1], spawnPoint.position, spawnPoint.rotation);
-                PlaySpawnSound();
                 break;
             case 2:
                 Instantiate(enemyPrefab[1], spawnPoint.position, spawnPoint.rotation);
@@ -92,12 +94,8 @@ public class WaveSpawner : MonoBehaviour
                 Instantiate(enemyPrefab[4], spawnPoint.position, spawnPoint.rotation);
                 break;
         }
-        PlaySpawnSound();
+        sound.SendMessage("SpawnSound");
     }
 
-    public void PlaySpawnSound()
-    {
-        audioSource.volume = 0.1f;
-        audioSource.PlayOneShot(spawnSound);
-    }
+
 }

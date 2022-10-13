@@ -41600,6 +41600,7 @@ GameObject:
   - component: {fileID: 1862239090}
   - component: {fileID: 1862239091}
   - component: {fileID: 1862239092}
+  - component: {fileID: 1862239093}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -41645,9 +41646,6 @@ MonoBehaviour:
   timeBetweenWaves: 30
   countdown: 2
   waveCountdownText: {fileID: 568858104}
-  audioSource: {fileID: 1862239092}
-  spawnSound: {fileID: 8300000, guid: 83d6c3520a16f16409280a61b5d3c8d5, type: 3}
-  bossSpawnSound: {fileID: 8300000, guid: 5d637c2f7aceb084190740f9a962c5aa, type: 3}
 --- !u!114 &1862239090
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41683,8 +41681,6 @@ MonoBehaviour:
   blueCountText: {fileID: 1257246061}
   yellowCountText: {fileID: 1669885490}
   moneyText: {fileID: 879334984}
-  audioSource: {fileID: 1862239092}
-  itemSound: {fileID: 8300000, guid: 7e204f7fbb979a846a5be31abcdfb22a, type: 3}
 --- !u!82 &1862239092
 AudioSource:
   m_ObjectHideFlags: 0
@@ -41781,6 +41777,24 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1862239093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1862239087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35cd04681e6019d4f9d2b294bdca369c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 1862239092}
+  enemyDieSound: {fileID: 8300000, guid: cb1d9482a9a3d27499276c34ab1f59d0, type: 3}
+  itemSound: {fileID: 8300000, guid: 7e204f7fbb979a846a5be31abcdfb22a, type: 3}
+  spawnSound: {fileID: 8300000, guid: 83d6c3520a16f16409280a61b5d3c8d5, type: 3}
+  bossSpawnSound: {fileID: 8300000, guid: 5d637c2f7aceb084190740f9a962c5aa, type: 3}
+  upGradeSound: {fileID: 8300000, guid: cbffd1b299d173e48a12ef3db222af74, type: 3}
 --- !u!1001 &1867583632
 PrefabInstance:
   m_ObjectHideFlags: 0
