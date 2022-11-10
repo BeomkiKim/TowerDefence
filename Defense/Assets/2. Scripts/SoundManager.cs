@@ -10,6 +10,8 @@ public class SoundManager : MonoBehaviour
     public AudioClip spawnSound;
     public AudioClip bossSpawnSound;
     public AudioClip upGradeSound;
+    public AudioClip damageSound;
+
 
     public void EnemyDie()
     {
@@ -33,5 +35,10 @@ public class SoundManager : MonoBehaviour
     public void UpgradeSound()
     {
         audioSource.PlayOneShot(upGradeSound);
+    }
+
+    public void DamageSound()
+    {
+        audioSource.PlayOneShot(damageSound);
     }
 }

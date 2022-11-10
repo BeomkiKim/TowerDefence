@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Shop : MonoBehaviour
 {
@@ -23,5 +24,11 @@ public class Shop : MonoBehaviour
             gems[2].SetActive(false);
             isGemOpen = false;
         }
+    }
+
+
+    public void ClickMain()
+    {
+        SceneManager.LoadScene("StartScene");
     }
 }

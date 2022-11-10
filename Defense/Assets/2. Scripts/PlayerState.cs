@@ -2,9 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerState : MonoBehaviour
 {
+
+    public GameObject gameoverObj;
+
     float startMoney = 100000f;
     public float currentMoney;
     public int currentLife;
@@ -41,8 +45,8 @@ public class PlayerState : MonoBehaviour
 
         if(currentLife <= 0)
         {
-            Debug.Log("GameOver");
             Time.timeScale = 0;
+            gameoverObj.SetActive(true);
         }
     }
 
@@ -53,8 +57,8 @@ public class PlayerState : MonoBehaviour
 
     void Hit()
     {
+        sound.DamageSound();
         currentLife -= 1;
     }
-
 
 }

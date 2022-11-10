@@ -11,6 +11,8 @@ public class WaveSpawner : MonoBehaviour
     public float countdown = 2f;
 
     public Text waveCountdownText;
+    public Text stageCount;
+
 
     int waveIndex = 10;
 
@@ -32,7 +34,7 @@ public class WaveSpawner : MonoBehaviour
 
         }
         countdown -= Time.deltaTime;
-
+        stageCount.text = "STAGE : "+stage.ToString();
         waveCountdownText.text = Mathf.Floor(countdown).ToString();
     }
 
