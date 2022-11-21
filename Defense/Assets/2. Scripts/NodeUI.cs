@@ -19,6 +19,7 @@ public class NodeUI : MonoBehaviour
         target = _target;
 
         transform.position = target.GetBuildPosition();
+        Hide();
         ui.SetActive(true);
 
         switch(target.turretNumber)
@@ -40,7 +41,6 @@ public class NodeUI : MonoBehaviour
 
     public void Hide()
     {
-        ui.SetActive(false);
         switch (uiNum)
         {
             case 0:
@@ -53,6 +53,7 @@ public class NodeUI : MonoBehaviour
                 rangeUI[2].SetActive(false);
                 break;
         }
+        ui.SetActive(false);
     }
 
     public void RedUpgrade()

@@ -11,6 +11,7 @@ public class SoundManager : MonoBehaviour
     public AudioClip bossSpawnSound;
     public AudioClip upGradeSound;
     public AudioClip damageSound;
+    public AudioClip coinSound;
 
 
     public void EnemyDie()
@@ -25,6 +26,11 @@ public class SoundManager : MonoBehaviour
     public void SpawnSound()
     {
         audioSource.PlayOneShot(spawnSound);
+    }
+
+    public void CoinSound()
+    {
+        audioSource.PlayOneShot(coinSound);
     }
 
     public void BossSound()

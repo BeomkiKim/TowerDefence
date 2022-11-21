@@ -36005,7 +36005,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 165.7478, y: 129.04}
+  m_SizeDelta: {x: 240.5724, y: 129.04}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1634629670
 MonoBehaviour:
@@ -36083,7 +36083,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a032247a303425441b8c3a6540082687, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 53fd53857a432c042b6d33f498f45a8b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -42349,6 +42349,7 @@ MonoBehaviour:
   bossSpawnSound: {fileID: 8300000, guid: 5d637c2f7aceb084190740f9a962c5aa, type: 3}
   upGradeSound: {fileID: 8300000, guid: cbffd1b299d173e48a12ef3db222af74, type: 3}
   damageSound: {fileID: 8300000, guid: cc2ca830e9c0b7744869d2330c4ae4a9, type: 3}
+  coinSound: {fileID: 8300000, guid: e57fa5d3179088c46898a1482a54a908, type: 3}
 --- !u!1001 &1867583632
 PrefabInstance:
   m_ObjectHideFlags: 0
