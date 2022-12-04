@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CameraController : MonoBehaviour
 {
@@ -37,6 +38,18 @@ public class CameraController : MonoBehaviour
         if(Input.GetKey("a") && transform.position.x > clampY || Input.mousePosition.x <= panBroderThickness && transform.position.x > clampY)
         { 
             transform.Translate(Vector3.left*panSpeed*Time.deltaTime, Space.World);
+        }
+        if(Input.GetKey("m"))
+        {
+            AudioListener.volume = 0;
+        }
+        if (Input.GetKey("n"))
+        {
+            AudioListener.volume = 1;
+        }
+        if(Input.GetKey("b"))
+        {
+            SceneManager.LoadScene("StartScene");
         }
 
         float scroll = Input.GetAxis("Mouse ScrollWheel");

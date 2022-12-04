@@ -88,11 +88,13 @@ public class Node : MonoBehaviour
 
     public void UpgradeTurret(int GemNumer)
     {
-        sound.SendMessage("UpgradeSound");
+        
         if(totalUpgradeCount == 1) //업그레이드를 이미 1번 한 경우 
         {
+            
             if (player.currentMoney >= 150)
             {
+                sound.SendMessage("UpgradeSound");
                 if (redUpgradeCount == 1 && blueUpgradeCount == 0 && yellowUpgradeCount == 0)
                 {
                     switch (GemNumer)
@@ -218,8 +220,10 @@ public class Node : MonoBehaviour
         }
         else if(totalUpgradeCount == 2)//업그레이드를 이미 2번 한 경우
         {
+
             if (player.currentMoney >= 200)
             {
+                sound.SendMessage("UpgradeSound");
                 switch (redUpgradeCount)
                 {
                     case 0: // 빨강 없는 경우
@@ -478,6 +482,7 @@ public class Node : MonoBehaviour
         {
             if (player.currentMoney >= 100)
             {
+                sound.SendMessage("UpgradeSound");
                 switch (GemNumer)
                 {
                     case 0:

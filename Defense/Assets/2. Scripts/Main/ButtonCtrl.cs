@@ -20,4 +20,16 @@ public class ButtonCtrl : MonoBehaviour
         howToPlay.SetActive(false);
     }
 
+    private void Update()
+    {
+        if (Input.GetKey("m"))
+        {
+            AudioListener.volume = 0;
+        }
+        if (Input.GetKey("n"))
+        {
+            AudioListener.volume = 1;
+        }
+    }
+
 }

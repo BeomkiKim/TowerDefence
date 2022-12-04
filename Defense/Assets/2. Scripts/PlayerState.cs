@@ -9,7 +9,7 @@ public class PlayerState : MonoBehaviour
 
     public GameObject gameoverObj;
 
-    float startMoney = 100000f;
+    float startMoney = 500f;
     public float currentMoney;
     public int currentLife;
     int maxlife = 3;
@@ -31,9 +31,9 @@ public class PlayerState : MonoBehaviour
         sound = GetComponent<SoundManager>();
         currentMoney = startMoney;
         currentLife = maxlife;
-        redCount = 100;
-        blueCount = 100;
-        yellowCount = 100;
+        redCount = 0;
+        blueCount = 0;
+        yellowCount = 0;
     }
 
     private void Update()
